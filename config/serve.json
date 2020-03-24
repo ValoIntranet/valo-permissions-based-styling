@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "6bc9fc00-a844-467b-8b80-7aca0357ca0a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "visitor": ".valo-toolbox__container{display:none;}",
+            "editor": ".valo-toolbox__container{display:none;}",
+            "owner": ".valo-toolbox__container{display:none;}",
+            "debug": true
+          }
+        }
+      }
+    },
+    "valoPermissionBasedStyling": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "6bc9fc00-a844-467b-8b80-7aca0357ca0a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "visitor": ".valo-toolbox__container{display:none;}",
+            "editor": ".valo-toolbox__container{display:none;}",
+            "owner": ".valo-toolbox__container{display:none;}",
+            "debug": true
+          }
+        }
+      }
+    }
+  }
+}

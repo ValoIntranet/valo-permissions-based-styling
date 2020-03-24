@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ValoPermissionBasedStyling"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="6bc9fc00-a844-467b-8b80-7aca0357ca0a"
+        ClientSideComponentProperties="{&quot;visitor&quot;:&quot;&quot;,&quot;editor&quot;:&quot;&quot;,&quot;owner&quot;:&quot;&quot;,&quot;debug&quot;:false}">
+    </CustomAction>
+</Elements>
